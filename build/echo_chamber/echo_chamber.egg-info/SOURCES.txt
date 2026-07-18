@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/echo_chamber/echo_chamber.egg-info/PKG-INFO
+../../build/echo_chamber/echo_chamber.egg-info/SOURCES.txt
+../../build/echo_chamber/echo_chamber.egg-info/dependency_links.txt
+../../build/echo_chamber/echo_chamber.egg-info/entry_points.txt
+../../build/echo_chamber/echo_chamber.egg-info/requires.txt
+../../build/echo_chamber/echo_chamber.egg-info/top_level.txt
+../../build/echo_chamber/echo_chamber.egg-info/zip-safe
+echo_chamber/__init__.py
+echo_chamber/listener.py
+echo_chamber/talker.py
+resource/echo_chamber
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

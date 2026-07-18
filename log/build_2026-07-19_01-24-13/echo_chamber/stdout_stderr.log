@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/echo_chamber/echo_chamber.egg-info
+writing ../../build/echo_chamber/echo_chamber.egg-info/PKG-INFO
+writing dependency_links to ../../build/echo_chamber/echo_chamber.egg-info/dependency_links.txt
+writing entry points to ../../build/echo_chamber/echo_chamber.egg-info/entry_points.txt
+writing requirements to ../../build/echo_chamber/echo_chamber.egg-info/requires.txt
+writing top-level names to ../../build/echo_chamber/echo_chamber.egg-info/top_level.txt
+writing manifest file '../../build/echo_chamber/echo_chamber.egg-info/SOURCES.txt'
+reading manifest file '../../build/echo_chamber/echo_chamber.egg-info/SOURCES.txt'
+writing manifest file '../../build/echo_chamber/echo_chamber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber
+copying echo_chamber/__init__.py -> /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber
+copying echo_chamber/listener.py -> /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber
+copying echo_chamber/talker.py -> /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber
+running install
+running install_lib
+creating /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber
+copying /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber/__init__.py -> /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber
+copying /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber/listener.py -> /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber
+copying /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber/talker.py -> /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber
+byte-compiling /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber/listener.py to listener.cpython-310.pyc
+byte-compiling /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber/talker.py to talker.cpython-310.pyc
+running install_data
+creating /home/arka/qstp_ws/install/echo_chamber/share/ament_index/resource_index/packages
+copying resource/echo_chamber -> /home/arka/qstp_ws/install/echo_chamber/share/ament_index/resource_index/packages
+copying package.xml -> /home/arka/qstp_ws/install/echo_chamber/share/echo_chamber
+running install_egg_info
+Copying ../../build/echo_chamber/echo_chamber.egg-info to /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/arka/qstp_ws/install/echo_chamber/lib/echo_chamber
+Installing talker script to /home/arka/qstp_ws/install/echo_chamber/lib/echo_chamber
+writing list of installed files to '/home/arka/qstp_ws/build/echo_chamber/install.log'

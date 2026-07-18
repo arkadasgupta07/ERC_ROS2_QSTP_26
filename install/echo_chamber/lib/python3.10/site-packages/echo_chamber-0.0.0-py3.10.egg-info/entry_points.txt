@@ -1,0 +1,3 @@
+[console_scripts]
+listener = echo_chamber.listener:main
+talker = echo_chamber.talker:main

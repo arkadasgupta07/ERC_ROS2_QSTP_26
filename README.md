@@ -15,7 +15,7 @@ This repository contains the foundational environment setup and the implementati
 ## 🎥 Video Demonstration
 Below is the screen recording showing the nodes successfully communicating in real time:
 
-<video src="demo.webm" width="100%" controls></video>
+<video src="src/demo.webm" width="100%" controls></video>
 
 ---
 

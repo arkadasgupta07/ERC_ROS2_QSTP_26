@@ -1,0 +1,37 @@
+[0.567s] Invoking command in '/home/arka/qstp_ws/src/echo_chamber': PYTHONPATH=/home/arka/qstp_ws/build/echo_chamber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/echo_chamber build --build-base /home/arka/qstp_ws/build/echo_chamber/build install --record /home/arka/qstp_ws/build/echo_chamber/install.log --single-version-externally-managed install_data
+[0.705s] running egg_info
+[0.713s] creating ../../build/echo_chamber/echo_chamber.egg-info
+[0.713s] writing ../../build/echo_chamber/echo_chamber.egg-info/PKG-INFO
+[0.713s] writing dependency_links to ../../build/echo_chamber/echo_chamber.egg-info/dependency_links.txt
+[0.713s] writing entry points to ../../build/echo_chamber/echo_chamber.egg-info/entry_points.txt
+[0.713s] writing requirements to ../../build/echo_chamber/echo_chamber.egg-info/requires.txt
+[0.713s] writing top-level names to ../../build/echo_chamber/echo_chamber.egg-info/top_level.txt
+[0.713s] writing manifest file '../../build/echo_chamber/echo_chamber.egg-info/SOURCES.txt'
+[0.730s] reading manifest file '../../build/echo_chamber/echo_chamber.egg-info/SOURCES.txt'
+[0.731s] writing manifest file '../../build/echo_chamber/echo_chamber.egg-info/SOURCES.txt'
+[0.731s] running build
+[0.731s] running build_py
+[0.731s] creating /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber
+[0.731s] copying echo_chamber/__init__.py -> /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber
+[0.731s] copying echo_chamber/listener.py -> /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber
+[0.731s] copying echo_chamber/talker.py -> /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber
+[0.731s] running install
+[0.733s] running install_lib
+[0.742s] creating /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber
+[0.742s] copying /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber/__init__.py -> /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber
+[0.742s] copying /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber/listener.py -> /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber
+[0.742s] copying /home/arka/qstp_ws/build/echo_chamber/build/lib/echo_chamber/talker.py -> /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber
+[0.742s] byte-compiling /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber/__init__.py to __init__.cpython-310.pyc
+[0.742s] byte-compiling /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber/listener.py to listener.cpython-310.pyc
+[0.743s] byte-compiling /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber/talker.py to talker.cpython-310.pyc
+[0.743s] running install_data
+[0.743s] creating /home/arka/qstp_ws/install/echo_chamber/share/ament_index/resource_index/packages
+[0.743s] copying resource/echo_chamber -> /home/arka/qstp_ws/install/echo_chamber/share/ament_index/resource_index/packages
+[0.743s] copying package.xml -> /home/arka/qstp_ws/install/echo_chamber/share/echo_chamber
+[0.743s] running install_egg_info
+[0.752s] Copying ../../build/echo_chamber/echo_chamber.egg-info to /home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages/echo_chamber-0.0.0-py3.10.egg-info
+[0.752s] running install_scripts
+[0.820s] Installing listener script to /home/arka/qstp_ws/install/echo_chamber/lib/echo_chamber
+[0.820s] Installing talker script to /home/arka/qstp_ws/install/echo_chamber/lib/echo_chamber
+[0.820s] writing list of installed files to '/home/arka/qstp_ws/build/echo_chamber/install.log'
+[0.834s] Invoked command in '/home/arka/qstp_ws/src/echo_chamber' returned '0': PYTHONPATH=/home/arka/qstp_ws/build/echo_chamber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arka/qstp_ws/install/echo_chamber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/echo_chamber build --build-base /home/arka/qstp_ws/build/echo_chamber/build install --record /home/arka/qstp_ws/build/echo_chamber/install.log --single-version-externally-managed install_data
