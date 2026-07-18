@@ -15,7 +15,8 @@ This repository contains the foundational environment setup and the implementati
 ## 🎥 Video Demonstration
 Below is the screen recording showing the nodes successfully communicating in real time:
 
-<video src="src/demo.webm" width="100%" controls></video>
+[ERC_ROS2_QSTP_2026_Week0.webm](https://github.com/user-attachments/assets/a2def97e-2f61-45d2-8b40-974e3144dec5)
+
 
 ---
 
