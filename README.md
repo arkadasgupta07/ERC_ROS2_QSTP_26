@@ -1,6 +1,14 @@
-# ERC ROS 2 QSTP 2026 - Master Repository
+# ERC ROS2 QSTP 2026
+<p align="center">
+   <img width="224" height="224" alt="erc-logo" src="https://github.com/user-attachments/assets/2e52d5ec-a74b-4975-a17e-d0120248945f" />
+<h3 align="center">
+  <strong align="center">~ Arka Dasgupta ~</strong><br>
+  <strong align="center">BITS Pilani, K. K. Birla Goa Campus</strong><br>
 
-This repository contains my progress, assignments, and custom ROS 2 packages developed during the **ERC ROS 2 QSTP 2026** program.
+</h3>
+</p>
+
+This repository contains my progress, assignments, and custom ROS 2 packages developed during the **ERC ROS2 QSTP 2026** program.
 
 ---
 
