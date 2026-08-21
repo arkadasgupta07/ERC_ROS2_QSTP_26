@@ -109,4 +109,24 @@ Why use it: Discovery. It verifies that your node successfully hosted its servic
 /toggle_robot
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+# Why do we use ament_cmake instead of ament_python when we are writing code in python?
+
+We use ament_cmake because pure Python build systems (ament_python) do not know how to compile custom .action, .msg, or .srv files into code that ROS 2 can read.
+
+*The Beginner Analogy: Building the Blueprint vs. Driving the Car*
+Python Scripts (.py files): They are like the driver. Python doesn't need to be compiled—it just runs line by line at execution time.
+
+Custom Action (.action file): This is the blueprint for how your client and server will talk to each other. Before Python can understand this blueprint, ROS 2 must compile it behind the scenes into internal C++ and Python code bindings.
+
+The Catch:
+ament_python uses standard Python packaging tools (setuptools). These tools only know how to copy .py files from one place to another—they have no ability to run ROS 2's interface compilers (rosidl_generate_interfaces).
+
+ament_cmake, on the other hand, is a multi-language build system manager. It executes two jobs in sequence:
+
+Compiles the Action: Takes Mission.action and generates the background Python code so you can write from waypoint_follower.action import Mission.
+
+Installs the Python Scripts: Takes mission_server.py and mission_client.py and marks them as executable programs so you can launch them with ros2 run.
